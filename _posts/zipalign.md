@@ -1,6 +1,7 @@
 ---
 title: zipalign
 date: 2016-10-24 14:26:07
+categories: Android
 tags:
 	  - Android
 ---
