@@ -1,6 +1,7 @@
 ---
 title: Android Handler消息机制
 date: 2016-05-16 16:51:51
+categories: Android
 tags:
 		- Handler
 		- Android

@@ -2,7 +2,12 @@
 title: zipalign
 date: 2016-10-24 14:26:07
 tags:
+	  - Android
 ---
+
+## 前言
+
+zipalign是Android构建过程的一个环节，本文主要是翻译官网关于zipalign的介绍，并且配图。
 
 ## zipalign
 
@@ -81,4 +86,18 @@ Verification FAILED
  1201748 resources.arsc (OK)
 Verification succesful
 ```
+
+## 配图
+
+看了[Android构建过程分析](http://mp.weixin.qq.com/s?__biz=MzI1NjEwMTM4OA==&mid=2651232113&idx=1&sn=02f413999ab0865e23d272e69b9e6196&scene=1&srcid=0831gT4p6M0NFG5HTTeRHTUC#wechat_redirect)感觉不错，不过配图不是太好看，自己结合[官网的介绍](https://developer.android.com/studio/build/index.html)配了一个图。但是由于暂时不准备单独写一篇分析的文章，便放到了此处了。
+
+不考虑Dependencies(Library Modules/AAR Libraries/JAR Libraries)，或者说将Dependencies理解成已经和Application Module进行marge了。
+
+<img src="/images/zipalign/Build Process.png" width = "803" height = "1368" alt="Build Process" />
+
+官网的构建配图是这样的：
+
+<img src="/images/zipalign/build-process_2x-2.png" width = "475" height = "534" alt="Build Process" />
+
+
 
