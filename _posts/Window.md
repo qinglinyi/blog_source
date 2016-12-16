@@ -409,7 +409,7 @@ Display是用来描述全局的屏幕属性的，提供逻辑显示区域大小�
 
 ## 2.类关系
 
-<img src="/images/window/Window2.png" width = "809" height = "603" alt="Window" />
+<img src="/images/window/Window2.png" width = "748" height = "603" alt="Window" />
 
 
 
